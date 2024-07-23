@@ -1,0 +1,17 @@
+---
+title: "Class Size"
+author: "Anna Shao"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+library(tidyverse)
+```
+
+```{r}
+STAR <- read_csv("data/STAR.csv", show_col_types = F)
+```
+
